@@ -1,0 +1,60 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "test_product_view_sku",
+        "kind": 2,
+        "importPath": "wert-1",
+        "description": "wert-1",
+        "peekOfCode": "def test_product_view_sku():\n\t# Описываем опции запуска браузера\n    chrome_options = Options()\n    chrome_options.add_argument(\"start-maximized\") # открываем на полный экран\n    chrome_options.add_argument(\"--disable-infobars\") # отключаем инфо сообщения\n    chrome_options.add_argument(\"--disable-extensions\") # отключаем расширения\n    # chrome_options.add_argument(\"--headless\") # спец. режим \"без браузера\"\n\t# устанавливаем webdriver в соответствии с версией используемого браузера\n    service = Service(ChromeDriverManager().install())\n    # запускаем браузер с указанными выше настройками",
+        "detail": "wert-1",
+        "documentation": {}
+    }
+]
